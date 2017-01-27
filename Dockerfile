@@ -1,4 +1,4 @@
-FROM quay.io/pires/docker-elasticsearch:2.4.2
+FROM quay.io/pires/docker-elasticsearch:2.4.1
 
 MAINTAINER falko.zurell@ubirch.com
 
