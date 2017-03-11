@@ -27,3 +27,9 @@ discovery:
   zen:
     ping.unicast.hosts: ${DISCOVERY_SERVICE}
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
+script:
+  inline: true
+  indexed: true
+  file: true
+  agg: true
+  search: true
